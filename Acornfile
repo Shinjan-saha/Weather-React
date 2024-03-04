@@ -2,7 +2,7 @@ containers: app:{
         build:{
             context:"."
         }
-        ports: publish: "3000/http"
+        ports: publish: "3050/http"
         if args.dev {
             dirs:{
                 "/app":"./"
